@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main() {
-	char chaine[]="Programming is like building a multilingual puzzle";
-	puts(chaine);
+int main(void) { /* imprimer une phrase au lancement du programme*/
+	puts("\"Programming is like building a multilingual puzzle");
 	return 0;
 }
