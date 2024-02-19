@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -E export CFILE=0-main.c ; ./0-preprocesseur où main.c -o
+gcc -E $CFILE -o c
