@@ -1,2 +1,2 @@
-#include <stdio.h>
-gcc -E C.c -0 c.c \n
+#!/bin/bash
+gcc -E $CFILE C.c
