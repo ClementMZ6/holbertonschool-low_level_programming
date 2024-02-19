@@ -1,5 +1,2 @@
 #include <stdio.h>
-
-	int $CFILE
-
-gcc -E C.c -0 c.c
+gcc -E C.c -0 c.c \n
