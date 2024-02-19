@@ -1,9 +1,7 @@
 #include <stdio.h>int main() {
+    char chaine[] = "Programming is like building a multilingual puzzle";
 
-	char chaine [] = "Programming is like building a multilingual puzzle"
+    puts(chaine); // Affiche la chaîne suivie d'un saut de ligne
 
-	puts(chaine);
-
-	return 0;
-
+    return 0;
 }
