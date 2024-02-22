@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_alphabet - ALWAYS IS SAID
+ * print_alphabet_x10 - Print the alphabet in lowercase, x10
+ *
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
@@ -10,7 +12,7 @@ void print_alphabet_x10(void)
 
 	while (i < 10)
 	{
-		z ='a';
+		z = 'a';
 		while (z <= 'z')
 		{
 			_putchar(z);
