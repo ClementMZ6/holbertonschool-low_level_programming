@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * FizzBuzz - l'amour
- * @main: FizzBuzz
+ * main - print fizz and buzz and fizzbuzz
  * Return: 0
  */
 int main(void)
