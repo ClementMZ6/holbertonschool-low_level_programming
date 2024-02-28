@@ -17,11 +17,13 @@ int main(void)
 
 		else if (i % 5 == 0)
 			printf("Buzz");
-
 		else
 			printf("%d", i);
-		putchar(' ');
+
+		if (i == 100)
+			putchar('\n');
+		else
+			printf(" ");
 	}
-	putchar('\n');
 	return (0);
 }
